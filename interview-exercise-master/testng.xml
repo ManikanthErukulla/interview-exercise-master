@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Card validation">
+  <test name="Tests for card validation">
+      <classes>
+      	<class name="uk.co.argos.interview.service.CardNumberValidationServiceTest"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

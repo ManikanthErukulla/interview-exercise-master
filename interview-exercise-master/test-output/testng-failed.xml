@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Card validation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tests for card validation(failed)">
+    <classes>
+      <class name="uk.co.argos.interview.service.CardNumberValidationServiceTest">
+        <methods>
+          <include name="testisNumeric" invocation-numbers="1 2 3 4 5"/>
+          <include name="beforeAll"/>
+        </methods>
+      </class> <!-- uk.co.argos.interview.service.CardNumberValidationServiceTest -->
+    </classes>
+  </test> <!-- Tests for card validation(failed) -->
+</suite> <!-- Failed suite [Card validation] -->
